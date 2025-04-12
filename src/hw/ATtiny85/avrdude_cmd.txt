@@ -1,0 +1,17 @@
+cd releases
+
+1- Flash with arduino as isp:
+C:/Users/emile/AppData/Local/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/avrdude.exe -C "C:/Users/emile/AppData/Local/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf" -v -V -p attiny85 -c stk500v1 -P COM3 -b 19200 -U flash:w:t85_default.hex
+
+2- Burn fuses with arduino  as isp:
+C:/Users/emile/AppData/Local/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/avrdude.exe -C "C:/Users/emile/AppData/Local/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf" -v -V -p attiny85 -c stk500v1 -P COM3 -b 19200 -U lfuse:w:0xe1:m -U hfuse:w:0xdd:m -U efuse:w:0xfe:m
+
+3- Validate fuses with arduino as isp:
+C:/Users/emile/AppData/Local/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/avrdude.exe -C "C:/Users/emile/AppData/Local/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf" -v -V -p attiny85 -c stk500v1 -P COM3 -b 19200 -U lfuse:r:-:i
+
+Expected output:
+
+avrdude.exe: safemode: Fuses OK (E:FE, H:DD, L:E2)
+
+optional, disable reset pin:
+C:/Users/emile/AppData/Local/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/avrdude.exe -C "C:/Users/emile/AppData/Local/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf" -v -V -p attiny85 -c stk500v1 -P COM3 -b 19200 -U lfuse:w:0xe1:m -U hfuse:w:0x5d:m -U efuse:w:0xfe:m
