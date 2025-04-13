@@ -1,0 +1,42 @@
+STEP translation to Solid Edge
+Date: Saturday,April 12,2025 07:57PM
+Source File: D:\Personal Projects\Keyboard_SingleKey\cad\ref\PH2RA-04-UA.STEP
+Author: Unknown
+Organization: Unknown
+Source System: SolidWorks 2014
+
+Hardware:
+Processor: AMD Ryzen 7 5800H with Radeon Graphics         
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 15.85 GB
+
+Software Information
+Parasolid Version: 36.0.142
+PSBodyShop Version: 36.0.108
+Step Adapter Version: 13.0.163
+Solid Edge Version: 224.00.00.101 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: D:\Personal Projects\Keyboard_SingleKey\cad\ref
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
+Translation process completed
+Total time required to translate and post process:00 : 00 : 01
