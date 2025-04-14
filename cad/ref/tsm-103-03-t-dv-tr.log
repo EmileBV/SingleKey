@@ -1,0 +1,42 @@
+STEP translation to Solid Edge
+Date: Sunday,April 13,2025 04:16PM
+Source File: D:\Personal Projects\Keyboard_SingleKey\cad\ref\tsm-103-03-t-dv-tr.stp
+Author: TraceParts
+Organization: TraceParts S.A.
+Source System:  
+
+Hardware:
+Processor: AMD Ryzen 7 5800H with Radeon Graphics         
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 15.85 GB
+
+Software Information
+Parasolid Version: 36.0.142
+PSBodyShop Version: 36.0.108
+Step Adapter Version: 13.0.163
+Solid Edge Version: 224.00.00.101 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: D:\Personal Projects\Keyboard_SingleKey\cad\ref
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
+Translation process completed
+Total time required to translate and post process:00 : 00 : 00
